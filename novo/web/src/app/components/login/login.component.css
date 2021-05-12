@@ -1,0 +1,21 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 50px;
+  width: 400px;
+}
+
+.login-input {
+  border-radius: 4;
+  height: 20px;
+  padding: 2px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+}

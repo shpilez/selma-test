@@ -1,0 +1,18 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login-form">
+  <input
+    class="login-input"
+    formControlName="email"
+    type="text"
+    placeholder="Enter your email"
+  />
+  <input
+    class="login-input"
+    formControlName="password"
+    type="password"
+    placeholder="Enter your password"
+  />
+  <button class="submit-button" type="submit">Log In</button>
+  <label *ngIf="showErrorMessage" class="error-message"
+    >You must enter username and password</label
+  >
+</form>
